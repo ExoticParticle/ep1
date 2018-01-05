@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "782bc95a-1f2f-4603-8318-6acd9a6fae15",
+            "Value": {
+                "id": "906b6276-742f-42cb-9b5d-916bf771fefa",
+                "resourcePath": "objects\\TestPlayerObject\\TestPlayerObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7aa791d9-376b-433a-ad6d-bb612307542b",
             "Value": {
                 "id": "20aaa8f5-c5a2-4f09-9152-9e408e785d8d",
