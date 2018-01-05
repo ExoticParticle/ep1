@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "120a4e64-b5d1-4f8a-b4f7-85977251becc",
+            "Value": {
+                "id": "32f14274-59ee-40e2-93e6-fb63daffef4c",
+                "resourcePath": "scripts\\SeansTestScript\\SeansTestScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1378f4ea-eeb7-44ed-ac24-466261533e0b",
             "Value": {
                 "id": "ce09e49f-9779-4d54-b370-4f6f576bc0a7",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "7c7adfb1-40f4-434b-8fc9-0322b5b32491",
+            "Value": {
+                "id": "19eb2fca-d810-4afb-a673-bac70df6c51c",
+                "resourcePath": "tilesets\\GrasslandTileSet\\GrasslandTileSet.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "886a01f1-3782-4753-915c-28b42ef75b01",
             "Value": {
                 "id": "f4c4814b-37a1-4ca0-b143-55a76ad8b61d",
@@ -175,6 +191,22 @@
             }
         },
         {
+            "Key": "bbe71a06-3d79-40a2-83c2-958c7293d7fa",
+            "Value": {
+                "id": "2f2eb97e-040a-4984-b206-f8440cedae15",
+                "resourcePath": "rooms\\TestGrasslandRoom\\TestGrasslandRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c1a4bfbc-059f-4ff8-beb2-e8cd9854ca87",
+            "Value": {
+                "id": "7a80d9cb-1186-4ec4-bcae-d05b69f16427",
+                "resourcePath": "sprites\\DownloadedGrasslandSprite\\DownloadedGrasslandSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a8eee3bb-985f-4798-a645-9d91995afb6a",
@@ -216,7 +248,7 @@
         }
     ],
     "script_order": [
-        
+        "120a4e64-b5d1-4f8a-b4f7-85977251becc"
     ],
     "tutorial": ""
 }
