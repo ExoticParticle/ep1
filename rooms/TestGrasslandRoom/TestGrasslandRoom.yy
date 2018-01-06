@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "e8c74bff-e899-4827-bed8-ca84ec39d990"
+        "e8c74bff-e899-4827-bed8-ca84ec39d990",
+        "f9ae04e0-8c60-40c7-b4c0-bc3ba097b4cf"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_9CB449E","id": "e8c74bff-e899-4827-bed8-ca84ec39d990","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_9CB449E","objId": "782bc95a-1f2f-4603-8318-6acd9a6fae15","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 192}
+{"name": "PlayerInstance","id": "e8c74bff-e899-4827-bed8-ca84ec39d990","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "PlayerInstance","objId": "782bc95a-1f2f-4603-8318-6acd9a6fae15","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 192},
+{"name": "TestHouseInterior","id": "f9ae04e0-8c60-40c7-b4c0-bc3ba097b4cf","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_TestHouseInterior.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "TestHouseInterior","objId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","properties": [{"id": "9f7303dc-9c58-48c3-b299-e7fad4d6db9b","modelName": "GMOverriddenProperty","objectId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","propertyId": "7c515eb7-8f2d-4d7c-93eb-7e7338731b32","mvc": "1.0","value": "1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 640,"y": 480}
             ],
             "layers": [
 
@@ -190,7 +192,7 @@
         "modelName": "GMRoomPhysicsSettings",
         "PhysicsWorld": true,
         "PhysicsWorldGravityX": 0,
-        "PhysicsWorldGravityY": 10,
+        "PhysicsWorldGravityY": 0,
         "PhysicsWorldPixToMeters": 0.1,
         "mvc": "1.0"
     },
