@@ -1,6 +1,6 @@
 
 {
-    "name": "MainMenu",
+    "name": "room000_mainMenu",
     "id": "f6c40319-7479-4047-a836-167c3e4d59e8",
     "creationCodeFile": "",
     "inheritCode": false,

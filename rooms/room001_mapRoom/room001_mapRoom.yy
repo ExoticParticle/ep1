@@ -1,6 +1,6 @@
 
 {
-    "name": "MapRoom",
+    "name": "room001_mapRoom",
     "id": "9b116d2f-b850-40b9-854b-03a8cbccbdca",
     "creationCodeFile": "",
     "inheritCode": false,
