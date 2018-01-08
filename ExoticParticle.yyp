@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "2e1e32cc-8b4a-4b30-9879-d97dfd0c70e4",
+            "Value": {
+                "id": "ad5ee1be-a726-4d2f-b8ee-5e591d32f07d",
+                "resourcePath": "objects\\object_GameMaster\\object_GameMaster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f12faa8-2d4f-4d5f-bbac-47102b3100bc",
             "Value": {
                 "id": "ea45e1ee-846e-4a79-ada4-fa351fdc77f8",

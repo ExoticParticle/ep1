@@ -4,11 +4,19 @@ switch(menu_index)
 {
 	case 0:
 		show_debug_message("New Game");
+		with(object_GameMaster)
+		{
+			newGameSelected = true;
+		}
 		room_goto(1);
 		break;
 	case 1:
 		show_debug_message("Load Game");
-		room_goto(1);
+				with(object_GameMaster)
+		{
+			loadGameSelected = true;
+		}
+
 		break;
 	case 2:
 		show_debug_message("Options");
