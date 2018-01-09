@@ -24,6 +24,13 @@ switch(state)
 		break;
 	case 10:
 		// State 10 - Setup tab menu
+		
+		// Pause Player
+		with(TestPlayerObject)
+		{
+			doPause = true;	
+		}
+		
 		closeMenuTimeout = room_speed * 2;
 		state = 20;
 		break;
@@ -76,7 +83,7 @@ switch(state)
 			closeMenuTimeout = room_speed * 2;
 			show_debug_message("Closing character menu");
 			doDrawButtons = false;
-			state = 0;
+			state = 30;
 			}
 		}
 		else
@@ -86,6 +93,15 @@ switch(state)
 				closeMenuTimeout -= 1;
 			}			
 		}
+		break;
+	case 30:
+		// State 30 -
+		// Pause Player
+		with(TestPlayerObject)
+		{
+			doPause = false;	
+		}
+		state = 0;
 		break;
 	default:
 		break;

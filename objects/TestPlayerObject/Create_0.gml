@@ -1,5 +1,10 @@
 /// Player Script What What
 
+// State machine
+state = 0;
+
+doPause = false;
+
 // Basic Movement Vars
 move_speed = 4;
 movement_x = 0;
