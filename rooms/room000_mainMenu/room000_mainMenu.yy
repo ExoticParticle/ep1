@@ -8,7 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "6bbd54be-949e-46a4-b661-4c504626fc1d",
-        "81e2a2c6-2bf1-4289-b682-ff81ec4bbfa8"
+        "81e2a2c6-2bf1-4289-b682-ff81ec4bbfa8",
+        "75cc4aa9-ea4b-4cca-a591-fab6bce03901"
     ],
     "IsDnD": true,
     "layers": [
@@ -27,7 +28,8 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_72ED2EFD","id": "6bbd54be-949e-46a4-b661-4c504626fc1d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_72ED2EFD","objId": "d3547ffc-c171-4589-85cf-d983a0e35d70","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 192},
-{"name": "inst_56BDAB7B","id": "81e2a2c6-2bf1-4289-b682-ff81ec4bbfa8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_56BDAB7B","objId": "2e1e32cc-8b4a-4b30-9879-d97dfd0c70e4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 160}
+{"name": "inst_56BDAB7B","id": "81e2a2c6-2bf1-4289-b682-ff81ec4bbfa8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_56BDAB7B","objId": "2e1e32cc-8b4a-4b30-9879-d97dfd0c70e4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 160},
+{"name": "MenuManager","id": "75cc4aa9-ea4b-4cca-a591-fab6bce03901","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "MenuManager","objId": "8eb701d8-b29d-43a9-a7ca-f5ad393f1d32","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 512,"y": 160}
             ],
             "layers": [
 
