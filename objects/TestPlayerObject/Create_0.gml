@@ -6,8 +6,9 @@ movement_x = 0;
 movement_y = 0;
 
 // Tile Map Info
-var collisionLayer = layer_get_id("collision_map");
-tilemap = layer_tilemap_get_id(collisionLayer);
+collisionLayer = layer_get_id("collision_map");
+collisionTilemap = layer_tilemap_get_id(collisionLayer);
+doUpdateTileset = false;
 
 // Sprite Info
 sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);

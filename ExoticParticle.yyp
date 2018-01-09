@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0484aaa8-eb01-461d-ba65-42d11a984ca6",
-            "Value": {
-                "id": "c67069cd-c849-4408-8b53-dc40f2d8bb66",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "061d52b4-c8f3-45b7-9015-be2671cf237f",
             "Value": {
                 "id": "c144234d-220d-4857-80fc-81fbd9313e78",
@@ -63,19 +55,19 @@
             }
         },
         {
-            "Key": "08f98a3d-f6da-45cd-967f-265f122c405c",
-            "Value": {
-                "id": "c4699afd-0daa-45c2-bc13-41d6b6ac1968",
-                "resourcePath": "rooms\\TestInteriorRoom\\TestInteriorRoom.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "09bda2b3-6cf9-41db-a498-7a4d80005424",
             "Value": {
                 "id": "8d4d287d-f2d8-4af4-9248-983a8ac7b11d",
                 "resourcePath": "views\\09bda2b3-6cf9-41db-a498-7a4d80005424.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0aa70004-a139-4174-9a1c-b0d98716ac01",
+            "Value": {
+                "id": "a8da171c-e3e4-4562-9b37-dbd383dfe95e",
+                "resourcePath": "rooms\\room011_northPlainsSouth\\room011_northPlainsSouth.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -111,6 +103,14 @@
             }
         },
         {
+            "Key": "1ae84242-1c04-4325-b970-30c5e70a5dfe",
+            "Value": {
+                "id": "f1db3615-f2fd-48ce-9d74-752e078d2568",
+                "resourcePath": "rooms\\room007_northPlainsTundra\\room007_northPlainsTundra.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "24a5fa2d-5be6-43d7-938e-ef0e5aa29c8b",
             "Value": {
                 "id": "9a17fba0-7f8f-4566-a6af-ef632508fffa",
@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2f10ddd0-522c-4e04-9fd3-39b406b84355",
+            "Value": {
+                "id": "1c86f638-1194-4297-9687-bf5cdd80ad68",
+                "resourcePath": "objects\\object_playerPositioner\\object_playerPositioner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f12faa8-2d4f-4d5f-bbac-47102b3100bc",
             "Value": {
                 "id": "ea45e1ee-846e-4a79-ada4-fa351fdc77f8",
@@ -151,19 +159,19 @@
             }
         },
         {
-            "Key": "331d0ff6-a2eb-4c22-b2d2-6c2dc4c85700",
-            "Value": {
-                "id": "969da884-237c-4d7b-9dab-58dea0f0e3e3",
-                "resourcePath": "rooms\\exampleRoom\\exampleRoom.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "356175f3-582c-4282-b6ab-edccf7c57cd5",
             "Value": {
                 "id": "c735921d-3a0a-4051-9cbf-1f3aa213fbfa",
                 "resourcePath": "tilesets\\tileSet_desert_tileset\\tileSet_desert_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "35b6d7d8-c559-4b15-9838-b4a76956c3ab",
+            "Value": {
+                "id": "1b922a7c-05c7-41cb-9e9f-d02699d07b2b",
+                "resourcePath": "rooms\\room012_oldHighway\\room012_oldHighway.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -204,6 +212,22 @@
                 "id": "b41690d9-9790-4864-b552-8368cef231ee",
                 "resourcePath": "tilesets\\bonusWallset_tileset\\bonusWallset_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "527a34b4-0b61-4775-be43-102c9039851d",
+            "Value": {
+                "id": "7fcc3f1c-1fbb-425d-8ec8-e41bb0934a37",
+                "resourcePath": "rooms\\room006_oceanMap\\room006_oceanMap.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "60f02a34-9a8b-4493-a1b5-d47ead4895a2",
+            "Value": {
+                "id": "d2b0f9a3-dfb6-4bd1-9c90-3137aa11c227",
+                "resourcePath": "rooms\\room013_valhallaEast\\room013_valhallaEast.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -287,6 +311,14 @@
             }
         },
         {
+            "Key": "7df504fc-1ddd-43b5-afc4-a2d4116d784d",
+            "Value": {
+                "id": "0cacc464-a1e5-432e-aee0-de42962b1233",
+                "resourcePath": "sprites\\sprite_nowLoading\\sprite_nowLoading.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "846ddc6a-3fd0-41dc-b582-777c0120d76a",
             "Value": {
                 "id": "b44188e0-6536-4c5d-82fa-7936609e5d27",
@@ -367,10 +399,18 @@
             }
         },
         {
+            "Key": "989d962e-ae01-46c7-a453-afd4aa779d1f",
+            "Value": {
+                "id": "83dfd4dc-a613-4a9b-98ea-d858714f5cca",
+                "resourcePath": "rooms\\room001_levelLoadRoom\\room001_levelLoadRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9b116d2f-b850-40b9-854b-03a8cbccbdca",
             "Value": {
                 "id": "b81f6882-709f-4d11-ac27-8b4804544667",
-                "resourcePath": "rooms\\room001_mapRoom\\room001_mapRoom.yy",
+                "resourcePath": "rooms\\room999_mapRoom\\room999_mapRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -378,7 +418,7 @@
             "Key": "9b373390-d66e-4306-812a-0c0dc87d586e",
             "Value": {
                 "id": "022dc6d1-138d-4ceb-956c-94cbe877e714",
-                "resourcePath": "rooms\\room002_northholdCommonsCenterRoom\\room002_northholdCommonsCenterRoom.yy",
+                "resourcePath": "rooms\\room002_northholdCommonsCenter\\room002_northholdCommonsCenter.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -415,14 +455,6 @@
             }
         },
         {
-            "Key": "bbe71a06-3d79-40a2-83c2-958c7293d7fa",
-            "Value": {
-                "id": "2f2eb97e-040a-4984-b206-f8440cedae15",
-                "resourcePath": "rooms\\TestGrasslandRoom\\TestGrasslandRoom.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "bcd20b9f-0629-465e-98d8-f75e82b8302c",
             "Value": {
                 "id": "8654c825-7089-428e-a611-dc0994f40252",
@@ -439,6 +471,22 @@
             }
         },
         {
+            "Key": "c4aef9b8-b45d-40ce-8107-7117928ab432",
+            "Value": {
+                "id": "bce103e8-3237-4853-ac99-0e50491b5b54",
+                "resourcePath": "rooms\\room008_northPlainsRiver\\room008_northPlainsRiver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c66bfad0-2f2f-4276-93df-dd1c797d2ead",
+            "Value": {
+                "id": "b626ff03-68a7-428a-8708-e7175943c176",
+                "resourcePath": "rooms\\room004_belcraft\\room004_belcraft.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ca5d0d16-f722-43eb-b2a3-602ba627c63b",
             "Value": {
                 "id": "2f838c5a-6f33-4246-844b-d36980930934",
@@ -452,6 +500,14 @@
                 "id": "a8eee3bb-985f-4798-a645-9d91995afb6a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce0d67a3-e67b-46bf-bcb2-f07bc2b22410",
+            "Value": {
+                "id": "e2d63c54-c266-4497-87d7-4b95323ea936",
+                "resourcePath": "rooms\\room003_northholdCastle\\room003_northholdCastle.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -476,6 +532,14 @@
                 "id": "2c5d5ca5-f200-4b40-98c3-44d96523a69a",
                 "resourcePath": "sprites\\OverworldMap\\OverworldMap.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de7ddff0-9ec2-4471-bdcb-0cb65167e013",
+            "Value": {
+                "id": "5a05225a-5f5f-43db-8d9c-e1db5f820174",
+                "resourcePath": "rooms\\room005_northPlainsEast\\room005_northPlainsEast.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -532,6 +596,22 @@
                 "id": "56a9a651-a9f1-4098-8cdc-c39f749f8168",
                 "resourcePath": "views\\f93118ca-6f48-4242-8538-777fa31c7b8b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fa3c0291-5a28-453c-8f85-4392fb217879",
+            "Value": {
+                "id": "7e481590-80d3-4b39-b7da-e004334c44b8",
+                "resourcePath": "rooms\\Room009_northPlainsCentral\\Room009_northPlainsCentral.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fa5a9df1-67b5-410c-9dae-e1bac0887573",
+            "Value": {
+                "id": "d3801d9e-1131-4b05-95f0-4b8a95c0d6ff",
+                "resourcePath": "rooms\\room010_fortHaven\\room010_fortHaven.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
