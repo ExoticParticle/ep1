@@ -88,6 +88,20 @@
             "value": "false",
             "varName": "doTeleport",
             "varType": 3
+        },
+        {
+            "id": "8dadf602-4189-4ea3-a363-fd42f7628ddd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "playerPositionIndexToTeleportTo",
+            "varType": 1
         }
     ],
     "solid": false,
