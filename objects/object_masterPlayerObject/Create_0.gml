@@ -5,6 +5,8 @@ state = 0;
 
 doPause = false;
 
+doRoomTransition = false;
+
 // Basic Movement Vars
 move_speed = 4;
 movement_x = 0;

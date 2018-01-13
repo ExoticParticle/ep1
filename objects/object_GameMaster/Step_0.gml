@@ -84,6 +84,13 @@ switch(state)
 		// State 130 - Transition to Room
 		show_debug_message("GameMaster: Transitioning to room index:" + string(roomIndexToTransitionTo));
 		doRoomLoad = true;
+		switch(character_selectedCharacterIndex)
+		{
+			case 0:
+			currentPlayerObject = instance_create_layer(x,y,"Instances",TestPlayerObject);
+			break;
+		}
+		camera_set_view_target(camera_get_default(),currentPlayerObject);
 		state = 140;
 		break;
 	case 140:
@@ -113,13 +120,17 @@ switch(roomLoadState)
 	case 20:
 		// RoomLoadState 20 - Unload Current Scene Stuff
 		show_debug_message("GameMaster: unloading current scene stuff");
+		with(currentPlayerObject)
+		{
+			doRoomTransition = true;	
+		}
 		roomLoadState = 30;
 		break;
 	case 30:
 		// RoomLoadState 30 - Transition Room
 		show_debug_message("GameMaster: going to room: " + string(roomIndexToTransitionTo));
 		room_goto(roomIndexToTransitionTo);
-		with(TestPlayerObject)
+		with(currentPlayerObject)
 		{
 			doUpdateTileset = true;	
 		}
@@ -143,8 +154,8 @@ switch(roomLoadState)
 				}
 			}
 		}
-		
-		with(TestPlayerObject)
+
+		with(currentPlayerObject)
 		{
 
 			x = other.playerPositionerX;
@@ -155,6 +166,10 @@ switch(roomLoadState)
 		break;
 	case 50:
 		// RoomLoadState 50 - Finish New Room Setup
+		with(currentPlayerObject)
+		{
+			doRoomTransition = false;	
+		}
 		roomLoadComplete = true;
 		doRoomLoad = false;
 		show_debug_message("GameMaster: finishing new room setup and returning to roomLoadState: 0");

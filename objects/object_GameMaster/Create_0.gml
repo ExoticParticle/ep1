@@ -12,3 +12,6 @@ playerPositionerY = 0;
 roomLoadState = 0;
 doRoomLoad = false;
 roomLoadCompleted = false;
+
+character_selectedCharacterIndex = 0;
+currentPlayerObject = asset_object;

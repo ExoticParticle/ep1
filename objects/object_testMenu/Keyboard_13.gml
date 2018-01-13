@@ -12,7 +12,7 @@ switch(menu_index)
 		break;
 	case 1:
 		show_debug_message("Load Game");
-				with(object_GameMaster)
+		with(object_GameMaster)
 		{
 			loadGameSelected = true;
 		}
