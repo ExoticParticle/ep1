@@ -22,3 +22,23 @@ sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprit
 sprite_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(sprite_index);
 sprite_bbox_bottom = sprite_get_bbox_bottom(sprite_index) - sprite_get_yoffset(sprite_index);
 sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_index);
+
+// Basic Attack Logic
+basicAttackState = 0;
+basicAttackTimer = 0;
+
+// Special Attack 
+specialAttackState = 0;
+specialAttackTimer = 0;
+
+// Player Interaction
+playerInteractionState = 0;
+playerInteractionTimer = 0;
+
+// Player Menu
+playerMenuState = 0;
+playerMenuTimer = 0;
+
+// Change Character
+changeCharacterState = 0;
+changeCharacterTimer = 0;

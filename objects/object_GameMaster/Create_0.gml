@@ -14,4 +14,6 @@ doRoomLoad = false;
 roomLoadCompleted = false;
 
 character_selectedCharacterIndex = 0;
+character_lastSelectibleCharacterIndex = 0;
 currentPlayerObject = asset_object;
+doPlayerCharacterChange = false;

@@ -10,20 +10,20 @@ switch(state)
 		break;
 	case 10:
 		// State 1 - Copyright Screen
-				state = 20;
+		state = 20;
 		break;
 	case 20:
 		// State 2 - Developer Splash
-				state = 30;
+		state = 30;
 		break;
 	case 30:
 		// State 3 - Developer Splash
-				state = 40;
+		state = 40;
 		break;
 	case 40:
 		// State 4 - Something Else
 		show_debug_message("GameMaster state 40 complete. Awaiting Main Menu Selection.");
-				state = 50;
+		state = 50;
 		break;
 	case 50:
 		// State 5 - Main Menu
@@ -37,22 +37,22 @@ switch(state)
 	case 60:
 		// State 6 - New Game Setup - Enter Name
 		show_debug_message("GameMaster: Enter Name");
-				state = 70;
+		state = 70;
 		break;
 	case 70:
 		// State 7 - New Game Setup - Wait to enter name
 		show_debug_message("GameMaster: Name Entered");
-				state = 80;
+		state = 80;
 		break;
 	case 80:
 		// State 8 - New Game Setup - Some new game explanations of things
 		show_debug_message("GameMaster: Finishing game explanation");
-				state = 90;
+		state = 90;
 		break;
 	case 90:
 		// State 9 - New Game Setup - wrapping up new game setup
 		show_debug_message("GameMaster: Wrapping up new game setup");
-				state = 100;
+		state = 100;
 		break;
 	case 100:
 		// State 100 - Begin Level Load
@@ -84,17 +84,17 @@ switch(state)
 		// State 130 - Transition to Room
 		show_debug_message("GameMaster: Transitioning to room index:" + string(roomIndexToTransitionTo));
 		doRoomLoad = true;
-		switch(character_selectedCharacterIndex)
-		{
-			case 0:
-			currentPlayerObject = instance_create_layer(x,y,"Instances",TestPlayerObject);
-			break;
-		}
-		camera_set_view_target(camera_get_default(),currentPlayerObject);
+		
+		script_switchCharacterVisuals();
+		
 		state = 140;
 		break;
 	case 140:
-		// State 140 - 
+		// State 140 - Last Steps
+		state = 150;
+		break;
+	case 150:
+		// State 150 - MAIN RUN LOOP
 		break;
 	default:
 		show_debug_message("GameMaster has entered unhandled state: " + string(state));
@@ -178,4 +178,10 @@ switch(roomLoadState)
 	default:
 		show_debug_message("GameMaster has entered unhandled roomLoadState:" + string(roomLoadState));
 		break;
+}
+
+if(doPlayerCharacterChange)
+{
+	doPlayerCharacterChange = false;
+	script_switchCharacterVisuals();
 }

@@ -12,11 +12,16 @@ switch(state)
 		break;
 	case 20:
 		// State 20 - Run Player
-		PlayerMovementLogic();
+		script_playerMovementLogic();
+		script_playerBasicAttackLogic();
+		script_playerSpecialAttackLogic();
+		script_playerInteraction();
+		script_playerMenu();
+		script_playerChangeCharacter();
 		
 		if(doRoomTransition)
 		{
-			
+			state = 40;	
 		}
 		
 		if(doPause)
@@ -52,5 +57,3 @@ if(doUpdateTileset)
 	collisionLayer = layer_get_id("collision_map");
 	collisionTilemap = layer_tilemap_get_id(collisionLayer);
 }
-
-

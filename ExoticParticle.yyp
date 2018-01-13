@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0e8867e5-8663-463c-9bec-f849f7d8850c",
+            "Value": {
+                "id": "735b6897-07c0-49b5-a89f-7dbfc2d761be",
+                "resourcePath": "scripts\\script_playerChangeCharacter\\script_playerChangeCharacter.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "120a4e64-b5d1-4f8a-b4f7-85977251becc",
             "Value": {
                 "id": "32f14274-59ee-40e2-93e6-fb63daffef4c",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "31c6797b-28f9-467a-8d0c-9a9462694697",
+            "Value": {
+                "id": "7672bbc3-3c2e-4a51-8f68-55c8c1bc6fe8",
+                "resourcePath": "scripts\\script_playerBasicAttackLogic\\script_playerBasicAttackLogic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "356175f3-582c-4282-b6ab-edccf7c57cd5",
             "Value": {
                 "id": "c735921d-3a0a-4051-9cbf-1f3aa213fbfa",
@@ -228,6 +244,14 @@
                 "id": "7fcc3f1c-1fbb-425d-8ec8-e41bb0934a37",
                 "resourcePath": "rooms\\room006_oceanMap\\room006_oceanMap.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5fa3bbb6-4df2-49b3-8d0b-94308e9ed01d",
+            "Value": {
+                "id": "7d7837c4-5f0d-4da4-8084-a66f60b82096",
+                "resourcePath": "scripts\\script_playerInteraction\\script_playerInteraction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -471,10 +495,18 @@
             }
         },
         {
+            "Key": "b2a4b437-625b-4ce8-b7ff-934ed42bd21f",
+            "Value": {
+                "id": "e4a4c3bc-c418-4d1c-b4ea-be436dcd6333",
+                "resourcePath": "scripts\\script_playerSpecialAttackLogic\\script_playerSpecialAttackLogic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b659132a-2da3-4bf6-a5bf-2b4352b911b2",
             "Value": {
                 "id": "2a73b174-0abd-4c0f-bdd3-b2ee09dfde61",
-                "resourcePath": "scripts\\PlayerMovementLogic\\PlayerMovementLogic.yy",
+                "resourcePath": "scripts\\script_playerMovementLogic\\script_playerMovementLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -567,6 +599,14 @@
             }
         },
         {
+            "Key": "ded8c30c-7c23-4972-9b10-02028e5665d2",
+            "Value": {
+                "id": "71464876-7768-4979-8620-934a1f9d44ab",
+                "resourcePath": "scripts\\script_switchCharacterVisuals\\script_switchCharacterVisuals.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e0173196-cfe6-4bc8-9f8a-1e9ccab28e17",
             "Value": {
                 "id": "63be6871-4dfb-436b-90d9-ae5ba0518949",
@@ -604,6 +644,14 @@
                 "id": "8cb5d799-404d-451c-acbc-7203cde3156a",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5d744b4-a305-486f-b8b9-01b07520b0e0",
+            "Value": {
+                "id": "14669b63-5cc4-40ae-b9c5-c34b29c12d45",
+                "resourcePath": "scripts\\script_playerMenu\\script_playerMenu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -657,7 +705,13 @@
     ],
     "script_order": [
         "120a4e64-b5d1-4f8a-b4f7-85977251becc",
-        "b659132a-2da3-4bf6-a5bf-2b4352b911b2"
+        "b659132a-2da3-4bf6-a5bf-2b4352b911b2",
+        "31c6797b-28f9-467a-8d0c-9a9462694697",
+        "b2a4b437-625b-4ce8-b7ff-934ed42bd21f",
+        "5fa3bbb6-4df2-49b3-8d0b-94308e9ed01d",
+        "f5d744b4-a305-486f-b8b9-01b07520b0e0",
+        "0e8867e5-8663-463c-9bec-f849f7d8850c",
+        "ded8c30c-7c23-4972-9b10-02028e5665d2"
     ],
     "tutorial": ""
 }
