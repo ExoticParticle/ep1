@@ -19,7 +19,7 @@ switch(changeCharacterState)
 				{
 					character_selectedCharacterIndex = 0;
 				}
-				doPlayerCharacterChange = true;
+
 			}
 			changeCharacterState = 10;
 		}
@@ -36,7 +36,7 @@ switch(changeCharacterState)
 				{
 					character_selectedCharacterIndex = character_lastSelectibleCharacterIndex;
 				}
-				doPlayerCharacterChange = true;
+
 			}
 			changeCharacterState = 10;
 		}

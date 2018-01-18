@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "23de8021-0b57-47cf-988f-73478644a250",
+            "Value": {
+                "id": "c4182db6-cfaa-441a-a650-314b618fb63f",
+                "resourcePath": "sprites\\PlayerSpecialAttackEffect\\PlayerSpecialAttackEffect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24a5fa2d-5be6-43d7-938e-ef0e5aa29c8b",
             "Value": {
                 "id": "9a17fba0-7f8f-4566-a6af-ef632508fffa",
@@ -356,6 +364,14 @@
                 "id": "b44188e0-6536-4c5d-82fa-7936609e5d27",
                 "resourcePath": "tilesets\\tileSet_Ice_tileset\\tileSet_Ice_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "873d9440-cb3a-47d7-ba0a-85c0e5469880",
+            "Value": {
+                "id": "ae2ab823-96aa-4841-b97a-91026c270bc2",
+                "resourcePath": "sprites\\BasicPlayerAttackEffect\\BasicPlayerAttackEffect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -591,6 +607,14 @@
             }
         },
         {
+            "Key": "dda71845-22a2-4c72-b85d-d4dd8c21f090",
+            "Value": {
+                "id": "17acb226-6fcf-4694-a4f5-bb4676b7867f",
+                "resourcePath": "objects\\object_playerBasicAttackEffect\\object_playerBasicAttackEffect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de7ddff0-9ec2-4471-bdcb-0cb65167e013",
             "Value": {
                 "id": "5a05225a-5f5f-43db-8d9c-e1db5f820174",
@@ -628,6 +652,14 @@
                 "id": "16392efb-227f-4567-a5fe-ecdf8839cbd0",
                 "resourcePath": "sprites\\tileSet_Ice\\tileSet_Ice.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5ef9992-17ca-4ba9-be6a-854fa8d693f3",
+            "Value": {
+                "id": "bf1ae43f-b455-44c0-8772-e79a3e5f643a",
+                "resourcePath": "objects\\object_playerSpecialAttackEffect\\object_playerSpecialAttackEffect.yy",
+                "resourceType": "GMObject"
             }
         },
         {

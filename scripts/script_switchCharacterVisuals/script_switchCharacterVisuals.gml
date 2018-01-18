@@ -1,11 +1,5 @@
 
-		with(currentPlayerObject)
-		{
-		instance_destroy();	
-		}
-	
 
-	
 	switch(character_selectedCharacterIndex)
 		{
 			case 0:
