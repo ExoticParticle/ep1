@@ -12,6 +12,30 @@ switch(specialAttackState)
 		break;
 	case 10:
 		show_debug_message("Doing Special Attack...");
+		switch(facingDirection)
+		{
+			case 0:
+			// Up
+			attackPositionOffsetX = -30;
+			attackPositionOffsetY = -100;
+			break;
+			case 1:
+			// Right
+			attackPositionOffsetX = 50;
+			attackPositionOffsetY = -30;
+			break;
+			case 2:
+			// Down
+			attackPositionOffsetX = -30;
+			attackPositionOffsetY = 20;
+			break;
+			case 3:
+			// Left
+			attackPositionOffsetX = -100;
+			attackPositionOffsetY = -30;
+			break;
+		}
+		instance_create_layer(x + attackPositionOffsetX, y + attackPositionOffsetY,"Instances", object_playerSpecialAttackEffect);
 		specialAttackState = 20;
 		break;
 	case 20:

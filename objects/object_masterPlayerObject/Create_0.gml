@@ -10,6 +10,7 @@ doRoomTransition = false;
 // Basic Movement Vars
 movement_x = 0;
 movement_y = 0;
+facingDirection = 0;
 
 // Tile Map Info
 collisionLayer = layer_get_id("collision_map");
@@ -22,7 +23,12 @@ sprite_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(spr
 sprite_bbox_bottom = sprite_get_bbox_bottom(sprite_index) - sprite_get_yoffset(sprite_index);
 sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_index);
 
+// Attack Vars
+attackPositionOffsetX = 0;
+attackPositionOffsetY = 0;
+
 // Basic Attack Logic
+basicAttackOffset = 5;
 basicAttackState = 0;
 basicAttackTimer = 0;
 
