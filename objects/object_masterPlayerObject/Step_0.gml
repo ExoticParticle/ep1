@@ -4,10 +4,13 @@ switch(state)
 {
 	case 0:
 	// State 0 - First Frame Init
+
 	state = 10;
 		break;
 	case 10:
 	// State 10 - Setup Player
+	show_debug_message("Setting up new player...");
+		camera_set_view_target(view_camera[0],id);
 	state = 20;
 		break;
 	case 20:
@@ -41,7 +44,7 @@ switch(state)
 		// State 40 - Do Room Transition
 		if(doRoomTransition == false)
 		{
-			state = 30;	
+			state = 20;	
 		}
 		break;
 	default:

@@ -1,11 +1,5 @@
 // Change Character mechanics for all characters
 // Change Character visuals will be personalized by character scripts
-
-
-switch(changeCharacterState)
-{
-	case 0:
-	// playerMenuState 0 - Wait for Button Press
 		// Increase Index and change character
 		if(keyboard_check(vk_f1) || gamepad_button_check(0,gp_shoulderr))
 		{
@@ -19,6 +13,8 @@ switch(changeCharacterState)
 				{
 					character_selectedCharacterIndex = 0;
 				}
+				playerPositionerX = other.x;
+				playerPositionerY = other.y;
 				doPlayerCharacterChange = true;
 			}
 			changeCharacterState = 10;
@@ -36,33 +32,9 @@ switch(changeCharacterState)
 				{
 					character_selectedCharacterIndex = character_lastSelectibleCharacterIndex;
 				}
+				playerPositionerX = other.x;
+				playerPositionerY = other.y;
 				doPlayerCharacterChange = true;
 			}
-			changeCharacterState = 10;
-		}
-		break;
-	case 10:
-		show_debug_message("Doing Player Change...");
-		changeCharacterState = 20;
-		break;
-	case 20:
-		changeCharacterState = 30;
-		break;
-	case 30:
-		changeCharacterTimer = room_speed * 0.1;
-		changeCharacterState = 40;
-		break;
-	case 40:
-		if(changeCharacterTimer > 0)
-		{
-			changeCharacterTimer =- 1;	
-		}
-		else
-		{
-			changeCharacterState = 0;
-		}
 
-		break;
-	default:
-		break;
-}
+		}

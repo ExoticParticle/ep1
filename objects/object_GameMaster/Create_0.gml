@@ -13,7 +13,10 @@ roomLoadState = 0;
 doRoomLoad = false;
 roomLoadCompleted = false;
 
+// Change Character
+changeCharacterState = 0;
+changeCharacterTimer = 0;
 character_selectedCharacterIndex = 0;
-character_lastSelectibleCharacterIndex = 0;
+character_lastSelectibleCharacterIndex = 2;
 currentPlayerObject = asset_object;
 doPlayerCharacterChange = false;

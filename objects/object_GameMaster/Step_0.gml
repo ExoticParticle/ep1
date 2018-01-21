@@ -65,7 +65,9 @@ switch(state)
 	case 110:
 		// State 110 - set timer in level load
 		loadLevelTimer = room_speed * 2;
+
 		show_debug_message("GameMaster: Set level load timer");
+
 		state = 120;
 		break;
 	case 120:
@@ -83,14 +85,16 @@ switch(state)
 	case 130:
 		// State 130 - Transition to Room
 		show_debug_message("GameMaster: Transitioning to room index:" + string(roomIndexToTransitionTo));
+
 		doRoomLoad = true;
-		
-		script_switchCharacterVisuals();
-		
+
+
 		state = 140;
 		break;
 	case 140:
 		// State 140 - Last Steps
+		doPlayerCharacterChange = true;
+
 		state = 150;
 		break;
 	case 150:
@@ -180,8 +184,4 @@ switch(roomLoadState)
 		break;
 }
 
-if(doPlayerCharacterChange)
-{
-	doPlayerCharacterChange = false;
-	script_switchCharacterVisuals();
-}
+script_switchCharacterVisuals();

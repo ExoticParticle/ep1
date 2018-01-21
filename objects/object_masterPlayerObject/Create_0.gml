@@ -8,7 +8,6 @@ doPause = false;
 doRoomTransition = false;
 
 // Basic Movement Vars
-move_speed = 4;
 movement_x = 0;
 movement_y = 0;
 
@@ -39,6 +38,4 @@ playerInteractionTimer = 0;
 playerMenuState = 0;
 playerMenuTimer = 0;
 
-// Change Character
-changeCharacterState = 0;
-changeCharacterTimer = 0;
+
