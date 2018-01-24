@@ -3,9 +3,13 @@
 // State machine
 state = 0;
 
+// Flags
 doPause = false;
-
 doRoomTransition = false;
+doSelectAsMainCharacter = false;
+doDeselectAsMainCharacter = false;
+doControl = false;
+
 
 // Basic Movement Vars
 movement_x = 0;

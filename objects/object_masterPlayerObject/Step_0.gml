@@ -3,15 +3,17 @@
 switch(state)
 {
 	case 0:
-	// State 0 - First Frame Init
-
-	state = 10;
+		// State 0 - Wait for control
+		if(doControl)
+		{
+			state = 10;
+		}
 		break;
 	case 10:
-	// State 10 - Setup Player
-	show_debug_message("Setting up new player...");
+		// State 10 - Setup Player
+		show_debug_message("Activating control for character: " + string(id));
 		camera_set_view_target(view_camera[0],id);
-	state = 20;
+		state = 20;
 		break;
 	case 20:
 		// State 20 - Run Player
@@ -30,6 +32,11 @@ switch(state)
 		if(doPause)
 		{
 			state = 30;	
+		}
+		
+		if(doControl == false)
+		{
+			state = 0;
 		}
 	
 		break;
