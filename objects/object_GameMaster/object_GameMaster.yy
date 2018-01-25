@@ -5,16 +5,6 @@
     "name": "object_GameMaster",
     "eventList": [
         {
-            "id": "94b9ff02-fdbd-4143-97b1-e9e059af8a55",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 12,
-            "m_owner": "2e1e32cc-8b4a-4b30-9879-d97dfd0c70e4"
-        },
-        {
             "id": "c81eb4fd-43da-4f02-ac52-d160fbe668cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -51,7 +41,9 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

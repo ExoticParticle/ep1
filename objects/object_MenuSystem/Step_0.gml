@@ -26,9 +26,13 @@ switch(state)
 		// State 10 - Setup tab menu
 		
 		// Pause Player
-		with(TestPlayerObject)
+		with(object_GameMaster)
 		{
-			doPause = true;	
+			with(currentPlayerObject)
+			{
+				doPause = true;	
+			}
+
 		}
 		
 		closeMenuTimeout = room_speed * 2;
@@ -96,10 +100,14 @@ switch(state)
 		break;
 	case 30:
 		// State 30 -
-		// Pause Player
-		with(TestPlayerObject)
+		// UnPause Player
+		with(object_GameMaster)
 		{
-			doPause = false;	
+			with(currentPlayerObject)
+			{
+				doPause = false;	
+			}
+
 		}
 		state = 0;
 		break;

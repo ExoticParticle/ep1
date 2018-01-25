@@ -10,20 +10,20 @@ switch(state)
 		break;
 	case 10:
 		// State 1 - Copyright Screen
-				state = 20;
+		state = 20;
 		break;
 	case 20:
 		// State 2 - Developer Splash
-				state = 30;
+		state = 30;
 		break;
 	case 30:
 		// State 3 - Developer Splash
-				state = 40;
+		state = 40;
 		break;
 	case 40:
 		// State 4 - Something Else
 		show_debug_message("GameMaster state 40 complete. Awaiting Main Menu Selection.");
-				state = 50;
+		state = 50;
 		break;
 	case 50:
 		// State 5 - Main Menu
@@ -37,22 +37,22 @@ switch(state)
 	case 60:
 		// State 6 - New Game Setup - Enter Name
 		show_debug_message("GameMaster: Enter Name");
-				state = 70;
+		state = 70;
 		break;
 	case 70:
 		// State 7 - New Game Setup - Wait to enter name
 		show_debug_message("GameMaster: Name Entered");
-				state = 80;
+		state = 80;
 		break;
 	case 80:
 		// State 8 - New Game Setup - Some new game explanations of things
 		show_debug_message("GameMaster: Finishing game explanation");
-				state = 90;
+		state = 90;
 		break;
 	case 90:
 		// State 9 - New Game Setup - wrapping up new game setup
 		show_debug_message("GameMaster: Wrapping up new game setup");
-				state = 100;
+		state = 100;
 		break;
 	case 100:
 		// State 100 - Begin Level Load
@@ -65,7 +65,9 @@ switch(state)
 	case 110:
 		// State 110 - set timer in level load
 		loadLevelTimer = room_speed * 2;
+		doRoomLoad = true;
 		show_debug_message("GameMaster: Set level load timer");
+
 		state = 120;
 		break;
 	case 120:
@@ -83,84 +85,51 @@ switch(state)
 	case 130:
 		// State 130 - Transition to Room
 		show_debug_message("GameMaster: Transitioning to room index:" + string(roomIndexToTransitionTo));
-		doRoomLoad = true;
+
+		// Create Players
+		for(i = 0; i < array_length_1d(activePlayerCharacterIndexes); i++)
+		{
+		switch(i)
+		{
+			case 0:
+				character_playerMaxine = instance_create_layer(playerPositionerX,playerPositionerY,"Instances", object_playerMaxine);
+				show_debug_message("Trying to instantiate character Maxine ");
+				break;
+			case 1:
+				character_playerLiam = instance_create_layer(playerPositionerX,playerPositionerY,"Instances", object_playerLiam);
+				show_debug_message("Trying to instantiate character Liam ");
+				break;
+			case 2:
+				character_playerJohn = instance_create_layer(playerPositionerX,playerPositionerY,"Instances", object_playerJohn);
+				show_debug_message("Trying to instantiate character John ");
+				break;
+			default:
+				show_debug_message("Trying to instantiate unaccounted for index: " + character_selectedCharacterIndex);
+				break;
+		}
+		}
+		currentPlayerObject = character_playerMaxine;
+		with(currentPlayerObject)
+		{
+			doControl = true;
+		}
 		state = 140;
 		break;
 	case 140:
-		// State 140 - 
+		// State 140 - Last Steps
+		doPlayerCharacterChange = true;
+
+		state = 150;
+		break;
+	case 150:
+		// State 150 - MAIN RUN LOOP
 		break;
 	default:
 		show_debug_message("GameMaster has entered unhandled state: " + string(state));
 		break;
 }
 
-switch(roomLoadState)
-{
-	case 0:
-		// RoomLoadState 0 - Wait to begin room load
-		if(doRoomLoad)
-		{
-			show_debug_message("GameMaster: doing room load to room: " + string(roomIndexToTransitionTo) + " at index: " + string(playerPositionerIndex));
-			roomLoadCompleted = false;
-			roomLoadState = 10;	
-		}
-		break;
-	case 10:
-		// RoomLoadState 10 - Prepare for room load
-		show_debug_message("GameMaster: preparing for room load");
-		roomLoadState = 20;
-		break;
-	case 20:
-		// RoomLoadState 20 - Unload Current Scene Stuff
-		show_debug_message("GameMaster: unloading current scene stuff");
-		roomLoadState = 30;
-		break;
-	case 30:
-		// RoomLoadState 30 - Transition Room
-		show_debug_message("GameMaster: going to room: " + string(roomIndexToTransitionTo));
-		room_goto(roomIndexToTransitionTo);
-		with(TestPlayerObject)
-		{
-			doUpdateTileset = true;	
-		}
-		roomLoadState = 40;
-		break;
-	case 40:
-		// RoomLoadState 40 - Setup New Room, position player
-		// Find appropriate player positioner
-		//show_debug_message("Player positioner array length: " + string(instance_number(object_playerPositioner)));
-		for(playerPositionerLoopIndex = 0; playerPositionerLoopIndex < instance_number(object_playerPositioner); playerPositionerLoopIndex += 1)
-		{
-			//show_debug_message("GameMaster: doing playerPositionerLoopIndex:  " + string(playerPositionerLoopIndex));
-			with(instance_find(object_playerPositioner, playerPositionerLoopIndex))
-			{
-				show_debug_message("GameMaster: searching for playerPositionerIndex: " + string(other.playerPositionerIndex) + ", playerPositionIndex is: " + string(playerPositionIndex));
-				if(other.playerPositionerIndex == playerPositionIndex)
-				{
-					show_debug_message("GameMaster: setting found playerposition to: " + string(x) + "," + string(y));
-					other.playerPositionerX = x;
-					other.playerPositionerY = y;
-				}
-			}
-		}
-		
-		with(TestPlayerObject)
-		{
-
-			x = other.playerPositionerX;
-			y = other.playerPositionerY;
-		}
-		show_debug_message("GameMaster: setting player position to index: " + string(playerPositionerIndex) + " (" + string(playerPositionerX) + "," + string(playerPositionerY) + ")");
-		roomLoadState = 50;
-		break;
-	case 50:
-		// RoomLoadState 50 - Finish New Room Setup
-		roomLoadComplete = true;
-		doRoomLoad = false;
-		show_debug_message("GameMaster: finishing new room setup and returning to roomLoadState: 0");
-		roomLoadState = 0;
-		break;
-	default:
-		show_debug_message("GameMaster has entered unhandled roomLoadState:" + string(roomLoadState));
-		break;
-}
+// Do the room transition logic state machine independently of other logic routines
+script_handleRoomTransitions();
+// Do the character switching state machine independently of other logic routines
+script_switchCharacterVisuals();
