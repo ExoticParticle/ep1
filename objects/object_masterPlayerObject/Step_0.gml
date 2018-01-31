@@ -3,10 +3,16 @@
 switch(state)
 {
 	case 0:
-		// State 0 - Wait for control
+		// State 0 - First Frame Init - either control this character or don't
 		if(doControl)
 		{
 			state = 10;
+		}
+		else
+		{
+
+			
+			state = 50;
 		}
 		break;
 	case 10:
@@ -18,8 +24,8 @@ switch(state)
 	case 20:
 		// State 20 - Run Player
 		script_playerMovementLogic();
-		script_playerBasicAttackLogic();
-		script_playerSpecialAttackLogic();
+
+
 		script_playerInteraction();
 		script_playerMenu();
 		script_playerChangeCharacter();
@@ -36,7 +42,7 @@ switch(state)
 		
 		if(doControl == false)
 		{
-			state = 0;
+			state = 50;
 		}
 	
 		break;
@@ -52,6 +58,33 @@ switch(state)
 		if(doRoomTransition == false)
 		{
 			state = 20;	
+		}
+		break;
+	case 50:
+		// State 50 - Setup to follow currentPlayerObject
+		with(object_GameMaster)
+		{
+			other.objectToFollow = currentPlayerObject;	
+		}
+		
+		state = 60;
+		break;
+		case 60:
+		// State 60 - Follow controlled character
+		// follow objectToFollow
+		with(object_GameMaster)
+		{
+			if(other.objectToFollow != currentPlayerObject)
+			{
+				other.objectToFollow = currentPlayerObject;	
+			}
+		}
+		script_followObject();
+		if(doControl)
+		{
+			// reset move method
+			move_towards_point(objectToFollow.x, objectToFollow.y, 0);
+			state = 10;
 		}
 		break;
 	default:

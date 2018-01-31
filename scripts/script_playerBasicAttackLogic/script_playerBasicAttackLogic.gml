@@ -16,23 +16,23 @@ switch(basicAttackState)
 		{
 			case 0:
 			// Up
-			attackPositionOffsetX = -30;
-			attackPositionOffsetY = -100;
+			attackPositionOffsetX = 0;
+			attackPositionOffsetY = -5 - sprite_height;
 			break;
 			case 1:
 			// Right
-			attackPositionOffsetX = 50;
-			attackPositionOffsetY = -30;
+			attackPositionOffsetX = 5 + sprite_width;
+			attackPositionOffsetY = 0;
 			break;
 			case 2:
 			// Down
-			attackPositionOffsetX = -30;
-			attackPositionOffsetY = 20;
+			attackPositionOffsetX = 0;
+			attackPositionOffsetY = 5 + sprite_height;
 			break;
 			case 3:
 			// Left
-			attackPositionOffsetX = -100;
-			attackPositionOffsetY = -30;
+			attackPositionOffsetX = -5 - sprite_width;
+			attackPositionOffsetY = 0;
 			break;
 		}
 		instance_create_layer(x + attackPositionOffsetX, y + attackPositionOffsetY,"Instances", object_playerBasicAttackEffect);
