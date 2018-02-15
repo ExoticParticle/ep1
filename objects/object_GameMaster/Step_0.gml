@@ -64,7 +64,7 @@ switch(state)
 		break;
 	case 110:
 		// State 110 - set timer in level load
-		loadLevelTimer = room_speed * 2;
+		loadLevelTimer = room_speed * 1;
 		doRoomLoad = true;
 		show_debug_message("GameMaster: Set level load timer");
 

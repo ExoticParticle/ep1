@@ -2,6 +2,7 @@
 
 // State machine
 state = 0;
+customState = 0;
 
 // Flags
 doPause = false;
@@ -40,6 +41,10 @@ basicAttackTimer = 0;
 specialAttackState = 0;
 specialAttackTimer = 0;
 
+// Homing Attack
+homingAttackState = 0;
+homingAttackTimer = 0;
+
 // Player Interaction
 playerInteractionState = 0;
 playerInteractionTimer = 0;
@@ -48,4 +53,10 @@ playerInteractionTimer = 0;
 playerMenuState = 0;
 playerMenuTimer = 0;
 
+// Follow vars
+objectToFollow = asset_object;
+doFollow = false;
+distanceFromObjectToFollow = 0;
+minimumDistanceFromObjectToFollow = 20;
+maximumDistanceFromObjectToFollow = 30;
 
