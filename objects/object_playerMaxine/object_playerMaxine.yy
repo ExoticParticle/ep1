@@ -4,26 +4,7 @@
     "mvc": "1.0",
     "name": "object_playerMaxine",
     "eventList": [
-        {
-            "id": "8194cf01-162c-4fd7-9d1a-2a7599ea0fcb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "bb5966c6-5a88-4c4e-856c-4ef1756095d5"
-        },
-        {
-            "id": "21eecdad-4883-4c2e-9870-a20a70b61a76",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bb5966c6-5a88-4c4e-856c-4ef1756095d5"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
