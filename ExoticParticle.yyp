@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "5b96beb1-8d63-4a01-b229-8f35324b56ed",
+            "Value": {
+                "id": "ebb04046-6100-47ca-a896-726b9ffc748a",
+                "resourcePath": "sprites\\maxinerunrighttemp\\maxinerunrighttemp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fa3bbb6-4df2-49b3-8d0b-94308e9ed01d",
             "Value": {
                 "id": "7d7837c4-5f0d-4da4-8084-a66f60b82096",
@@ -703,6 +711,14 @@
             }
         },
         {
+            "Key": "d1439e98-1687-49a5-bb72-f4fa025fcf1a",
+            "Value": {
+                "id": "b0492456-c703-4edf-a11a-4ce93401155c",
+                "resourcePath": "sprites\\maxinerunuptemp\\maxinerunuptemp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3547ffc-c171-4589-85cf-d983a0e35d70",
             "Value": {
                 "id": "7472075d-4eb7-4a83-b5c6-22c44161278b",
@@ -723,6 +739,14 @@
             "Value": {
                 "id": "7d94205c-0875-4bb6-9749-209e5b4a42c8",
                 "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkRight\\sprite_tempPlayerMaxine_walkRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da5c12b7-3874-4071-bc51-9ca469b4ee15",
+            "Value": {
+                "id": "88f73cbc-bca4-46f8-a2d3-101cec426b2c",
+                "resourcePath": "sprites\\maxinerunlefttemp\\maxinerunlefttemp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -795,6 +819,14 @@
             "Value": {
                 "id": "8ef9912e-bd89-4c06-a278-105a0be78ca2",
                 "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkFront\\sprite_tempPlayerMaxine_walkFront.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e92139cc-52da-43e4-af59-c7a06d65a4a2",
+            "Value": {
+                "id": "d487e0e6-94cf-41d8-acf1-7f12ee039e40",
+                "resourcePath": "sprites\\maxinerundowntemp\\maxinerundowntemp.yy",
                 "resourceType": "GMSprite"
             }
         },
