@@ -29,10 +29,10 @@ sprite_bbox_bottom = sprite_get_bbox_bottom(sprite_index) - sprite_get_yoffset(s
 sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_index);
 
 // Current Character Sprite Info
-sprite_walk_forward = sprite_tempPlayerMaxine_walkFront;
-sprite_walk_behind = sprite_tempPlayerMaxine_walkBehind;
-sprite_walk_left = sprite_tempPlayerMaxine_walkLeft;
-sprite_walk_right = sprite_tempPlayerMaxine_walkRight;
+sprite_walk_forward = maxinewalkdowntemp;
+sprite_walk_behind = maxinewalkuptemp;
+sprite_walk_left = maxinewalklefttemp;
+sprite_walk_right = maxinewalkrighttemp;
 
 
 // Attack Vars
