@@ -87,7 +87,7 @@ switch(state)
 				other.objectToFollow = currentPlayerObject;	
 			}
 		}
-		//script_followObject();
+		script_follow();
 		if(doControl)
 		{
 			// reset move method
