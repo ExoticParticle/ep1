@@ -24,8 +24,16 @@ switch(state)
 	case 20:
 		// State 20 - Run Player
 		script_playerMovementLogic();
-
-
+		if(facingDirection == 0){
+			sprite_index = sprite_walk_behind;
+		} else if (facingDirection == 1){
+			sprite_index = sprite_walk_right;
+		} else if (facingDirection == 2){
+			sprite_index = sprite_walk_forward;
+		} else if (facingDirection == 3){
+			sprite_index = sprite_walk_left;
+		}
+		show_debug_message("playerDirection: " + string(facingDirection));
 		script_playerInteraction();
 		script_playerMenu();
 		script_playerChangeCharacter();

@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "612fe032-e631-40f2-9efd-7bf997cc86a0",
+            "Value": {
+                "id": "b2fb5bbf-b8ca-4f77-a22a-427a8666687a",
+                "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkBehind\\sprite_tempPlayerMaxine_walkBehind.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6414fe58-2b3f-4865-ab21-13bd6dc1ae54",
             "Value": {
                 "id": "9f425169-f416-4703-bbb0-f0eedc83791e",
@@ -364,6 +372,22 @@
                 "id": "b44188e0-6536-4c5d-82fa-7936609e5d27",
                 "resourcePath": "tilesets\\tileSet_Ice_tileset\\tileSet_Ice_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "868a748f-7ba1-4e5a-9220-ff90408ba918",
+            "Value": {
+                "id": "9973427a-c299-4cc2-92de-aa5b1a665459",
+                "resourcePath": "views\\868a748f-7ba1-4e5a-9220-ff90408ba918.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87334695-9899-4baf-9539-0e12aeb551a1",
+            "Value": {
+                "id": "7d6e6821-8f3a-43fc-815f-c37296ed2663",
+                "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkLeft\\sprite_tempPlayerMaxine_walkLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -663,6 +687,14 @@
             }
         },
         {
+            "Key": "d65a0b69-8e69-4fc1-8b9a-46209979b4b0",
+            "Value": {
+                "id": "7d94205c-0875-4bb6-9749-209e5b4a42c8",
+                "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkRight\\sprite_tempPlayerMaxine_walkRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dda71845-22a2-4c72-b85d-d4dd8c21f090",
             "Value": {
                 "id": "17acb226-6fcf-4694-a4f5-bb4676b7867f",
@@ -730,7 +762,7 @@
             "Key": "e8c8dbc8-a097-4257-8143-413c4543c7d9",
             "Value": {
                 "id": "8ef9912e-bd89-4c06-a278-105a0be78ca2",
-                "resourcePath": "sprites\\sprite_tempPlayerMaxine\\sprite_tempPlayerMaxine.yy",
+                "resourcePath": "sprites\\sprite_tempPlayerMaxine_walkFront\\sprite_tempPlayerMaxine_walkFront.yy",
                 "resourceType": "GMSprite"
             }
         },
