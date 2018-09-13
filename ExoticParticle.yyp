@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "834dffbd-96b0-46fe-9fa3-a64741c7991e",
+            "Value": {
+                "id": "efaea318-8a08-4efb-8eb3-0087916ecd77",
+                "resourcePath": "sprites\\walkspritedown_v1\\walkspritedown_v1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "846ddc6a-3fd0-41dc-b582-777c0120d76a",
             "Value": {
                 "id": "b44188e0-6536-4c5d-82fa-7936609e5d27",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "ddec9c8f-fad5-47b9-a353-e76d8fa39875",
+            "Value": {
+                "id": "1f8453e1-accc-4c6e-925a-0ee457cf818b",
+                "resourcePath": "sprites\\walkspriteleft_v1\\walkspriteleft_v1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de7ddff0-9ec2-4471-bdcb-0cb65167e013",
             "Value": {
                 "id": "5a05225a-5f5f-43db-8d9c-e1db5f820174",
@@ -787,6 +803,14 @@
             "Value": {
                 "id": "63be6871-4dfb-436b-90d9-ae5ba0518949",
                 "resourcePath": "sprites\\tileSet_Lava\\tileSet_Lava.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e02779ac-b8dc-4f20-a094-a5dac58f5e0a",
+            "Value": {
+                "id": "f1f2776c-2279-4452-a56e-ffe6888d54ff",
+                "resourcePath": "sprites\\walkspriteright_v1\\walkspriteright_v1.yy",
                 "resourceType": "GMSprite"
             }
         },
