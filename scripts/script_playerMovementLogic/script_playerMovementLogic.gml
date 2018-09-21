@@ -26,7 +26,7 @@
 
 		//show_debug_message(movement_y);
 		// Determine movement_movementType
-		if(movement_x == 0 && movement_y == 0){
+		if(movement_x == 0.0 && movement_y == 0.0){
 			// No movement, play idle
 			movement_movementType = 0;
 		} else if (movement_x < -2 || movement_x > 2) {
