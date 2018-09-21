@@ -91,6 +91,8 @@ switch(state)
 		script_playerInteraction();
 		script_playerMenu();
 		script_playerChangeCharacter();
+		script_playerBasicAttackLogic();
+		script_playerSpecialAttackLogic();
 		
 		if(doRoomTransition)
 		{
