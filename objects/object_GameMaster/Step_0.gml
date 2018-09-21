@@ -133,3 +133,4 @@ switch(state)
 script_handleRoomTransitions();
 // Do the character switching state machine independently of other logic routines
 script_switchCharacterVisuals();
+script_handleScreenResolution();

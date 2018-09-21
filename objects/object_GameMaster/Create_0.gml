@@ -30,3 +30,7 @@ character_previousSelectedCharacterIndex = 0;
 character_lastSelectibleCharacterIndex = 2;
 
 doPlayerCharacterChange = false;
+
+// Screen Resolution
+screenResolutionChangeTimeout = 0.0;
+screenResolutionChangeCounter = 0.0;
