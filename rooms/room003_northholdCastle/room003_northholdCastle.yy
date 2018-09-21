@@ -7,10 +7,10 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "f114ebcd-b053-4455-a7ae-4cae7061eeaf",
-        "6f5c9aa2-b482-4163-9065-c4cfd12a2ee3",
         "65caa11b-1358-4137-abd0-f1c8ca04af11",
-        "e01c821d-6ef1-443c-ae60-b17982b4a1dd"
+        "e01c821d-6ef1-443c-ae60-b17982b4a1dd",
+        "166fdd9a-b6d2-4022-84c2-d7cfec7ac5f5",
+        "9ac62726-db41-4885-bad9-260bda4bf970"
     ],
     "IsDnD": true,
     "layers": [
@@ -105,7 +105,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -125,22 +125,22 @@
                 "SerialiseWidth": 16,
                 "TileSerialiseData": [
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+                    1,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
+                    1,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
+                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
+                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
                     1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
-                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
-                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
-                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
-                    1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
                     1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
                     1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
                     1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
                     1,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
                     1,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,1,
-                    1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+                    1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
                 ]
             },
             "tilesetId": "a568685f-fa3e-493e-95a3-56ee00a367e5",
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "x": 0,
             "y": 0
         },
@@ -158,10 +158,10 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "NorthholdCastleToNorthholdCommons","id": "f114ebcd-b053-4455-a7ae-4cae7061eeaf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "NorthholdCastleToNorthholdCommons","objId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","properties": [{"id": "139d4ecc-ff26-4e85-a56b-a0d8e210e16b","modelName": "GMOverriddenProperty","objectId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","propertyId": "7c515eb7-8f2d-4d7c-93eb-7e7338731b32","mvc": "1.0","value": "2"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 416,"y": 736},
-{"name": "NorthholdCastleToOceanMap","id": "6f5c9aa2-b482-4163-9065-c4cfd12a2ee3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "NorthholdCastleToOceanMap","objId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","properties": [{"id": "29990b92-744e-4293-bada-1b466f5b2685","modelName": "GMOverriddenProperty","objectId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","propertyId": "7c515eb7-8f2d-4d7c-93eb-7e7338731b32","mvc": "1.0","value": "6"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 992,"y": 352},
-{"name": "FromNorthholdCommonsCenterPlayerPositioner","id": "65caa11b-1358-4137-abd0-f1c8ca04af11","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "FromNorthholdCommonsCenterPlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": [{"id": "223781a8-1b3a-404f-94b1-0c6cfd84a329","modelName": "GMOverriddenProperty","objectId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","propertyId": "903b1e38-c535-4db5-9852-9eef49232df5","mvc": "1.0","value": "0"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 416,"y": 608},
-{"name": "FromOceanMapPlayerPositioner","id": "e01c821d-6ef1-443c-ae60-b17982b4a1dd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "FromOceanMapPlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": [{"id": "dbcc91e3-2116-4871-b7bb-c1013f75e391","modelName": "GMOverriddenProperty","objectId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","propertyId": "903b1e38-c535-4db5-9852-9eef49232df5","mvc": "1.0","value": "1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 352}
+{"name": "FromNorthholdCommonsCenterPlayerPositioner","id": "65caa11b-1358-4137-abd0-f1c8ca04af11","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "FromNorthholdCommonsCenterPlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": [{"id": "223781a8-1b3a-404f-94b1-0c6cfd84a329","modelName": "GMOverriddenProperty","objectId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","propertyId": "903b1e38-c535-4db5-9852-9eef49232df5","mvc": "1.0","value": "0"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 576,"y": 608},
+{"name": "FromOceanMapPlayerPositioner","id": "e01c821d-6ef1-443c-ae60-b17982b4a1dd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "FromOceanMapPlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": [{"id": "dbcc91e3-2116-4871-b7bb-c1013f75e391","modelName": "GMOverriddenProperty","objectId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","propertyId": "903b1e38-c535-4db5-9852-9eef49232df5","mvc": "1.0","value": "1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 768,"y": 416},
+{"name": "northholdCastleToCommonsCenterTransitioner","id": "166fdd9a-b6d2-4022-84c2-d7cfec7ac5f5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "northholdCastleToCommonsCenterTransitioner","objId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 384,"y": 640},
+{"name": "northholdCastleToOceanMapTransitioner","id": "9ac62726-db41-4885-bad9-260bda4bf970","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "northholdCastleToOceanMapTransitioner","objId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","properties": [{"id": "c2e7c21a-ddee-4611-a7ad-5dc2143bed9d","modelName": "GMOverriddenProperty","objectId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","propertyId": "dfb0b932-c3da-411e-a34e-b86f5f514203","mvc": "1.0","value": "6"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 896,"y": 320}
             ],
             "layers": [
 

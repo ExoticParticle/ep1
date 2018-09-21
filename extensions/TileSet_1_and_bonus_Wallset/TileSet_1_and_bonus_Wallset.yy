@@ -49,5 +49,16 @@
     "packageID": "com.rrfreelance.tilepack1",
     "productID": "",
     "sourcedir": "",
+    "tvosProps": false,
+    "tvosSystemFrameworkEntries": [
+        
+    ],
+    "tvosThirdPartyFrameworkEntries": [
+        
+    ],
+    "tvosclassname": null,
+    "tvosmaccompilerflags": null,
+    "tvosmaclinkerflags": null,
+    "tvosplistinject": null,
     "version": "1.0.2"
 }

@@ -1,0 +1,81 @@
+{
+    "id": "f6e71d14-ff2d-44e6-8f9a-838448af2a44",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "object_playerRoomTransitioner",
+    "eventList": [
+        {
+            "id": "008823fb-1057-46a4-907b-7a3195370466",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f6e71d14-ff2d-44e6-8f9a-838448af2a44"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "dfb0b932-c3da-411e-a34e-b86f5f514203",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "roomToTeleportTo",
+            "varType": 1
+        },
+        {
+            "id": "7ad2ea6e-f19f-4b10-bc7b-4797f98d02c4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "playerPositionIndexToTeleportTo",
+            "varType": 1
+        },
+        {
+            "id": "fced3ce0-7f1b-4169-9265-f218429fc7a2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "doTeleport",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "9de4a85e-c25e-44e7-ba2a-4dc6183a555e",
+    "visible": true
+}

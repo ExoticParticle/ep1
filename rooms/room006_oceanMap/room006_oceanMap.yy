@@ -7,8 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "7b11d92d-fd31-40cc-9c43-33609780657b",
-        "031e7ee9-8d8a-4761-9e51-85aba4e41c05"
+        "031e7ee9-8d8a-4761-9e51-85aba4e41c05",
+        "e80955a7-fdb7-4480-99ff-e7a11922e3d2"
     ],
     "IsDnD": true,
     "layers": [
@@ -26,8 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_1121B23B","id": "7b11d92d-fd31-40cc-9c43-33609780657b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1121B23B","objId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","properties": [{"id": "75563312-7f9c-4091-ac63-a325c011f79d","modelName": "GMOverriddenProperty","objectId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","propertyId": "7c515eb7-8f2d-4d7c-93eb-7e7338731b32","mvc": "1.0","value": "3"},{"id": "00ba9fb1-c2c1-4dbc-82cb-15ada8fbde32","modelName": "GMOverriddenProperty","objectId": "40be6b93-74cc-46e9-bf28-1d79b689bbba","propertyId": "8dadf602-4189-4ea3-a363-fd42f7628ddd","mvc": "1.0","value": "1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 352},
-{"name": "OceanMapFromNorthholdCastlePlayerPositioner","id": "031e7ee9-8d8a-4761-9e51-85aba4e41c05","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "OceanMapFromNorthholdCastlePlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 352}
+{"name": "OceanMapFromNorthholdCastlePlayerPositioner","id": "031e7ee9-8d8a-4761-9e51-85aba4e41c05","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "OceanMapFromNorthholdCastlePlayerPositioner","objId": "2f10ddd0-522c-4e04-9fd3-39b406b84355","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 352},
+{"name": "OceanMapToNorthholdCastleTransitioner","id": "e80955a7-fdb7-4480-99ff-e7a11922e3d2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "OceanMapToNorthholdCastleTransitioner","objId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","properties": [{"id": "adf52d51-bdd7-420d-a5b0-c751410d7511","modelName": "GMOverriddenProperty","objectId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","propertyId": "dfb0b932-c3da-411e-a34e-b86f5f514203","mvc": "1.0","value": "3"},{"id": "26452d96-4b7f-4bd4-987b-36f93eaa2284","modelName": "GMOverriddenProperty","objectId": "f6e71d14-ff2d-44e6-8f9a-838448af2a44","propertyId": "7ad2ea6e-f19f-4b10-bc7b-4797f98d02c4","mvc": "1.0","value": "1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 320}
             ],
             "layers": [
 
@@ -153,9 +153,9 @@
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-                    0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,
-                    2147483648,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,
-                    0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,
+                    0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
+                    2147483648,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
+                    0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
