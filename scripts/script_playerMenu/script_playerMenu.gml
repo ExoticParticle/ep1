@@ -5,11 +5,8 @@
 switch(playerMenuState)
 {
 	case 0:
-	// playerMenuState 0 - Wait for Button Press
-		if(keyboard_check(vk_lshift) || gamepad_button_check(0,gp_face4))
-		{
-			playerMenuState = 10;
-		}
+	// playerMenuState 0 - **DISABLED** do nothing...
+
 		break;
 	case 10:
 			show_debug_message("Doing Menu...");

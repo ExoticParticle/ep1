@@ -51,14 +51,29 @@ switch(roomLoadState)
 				}
 			}
 		}
-
-		with(currentPlayerObject)
+		// HACKY! Teleport all Player Characters
+		with(character_playerMaxine)
 		{
 
 			x = other.playerPositionerX;
 			y = other.playerPositionerY;
+			doReset = true;
 		}
-		show_debug_message("GameMaster: setting player position to index: " + string(playerPositionerIndex) + " (" + string(playerPositionerX) + "," + string(playerPositionerY) + ")");
+		with(character_playerJohn)
+		{
+
+			x = other.playerPositionerX;
+			y = other.playerPositionerY;
+			doReset = true;
+		}
+		with(character_playerLiam)
+		{
+
+			x = other.playerPositionerX;
+			y = other.playerPositionerY;
+			doReset = true;
+		}
+		show_debug_message("GameMaster: setting all player character positions to index: " + string(playerPositionerIndex) + " (" + string(playerPositionerX) + "," + string(playerPositionerY) + ")");
 		roomLoadState = 50;
 		break;
 	case 50:

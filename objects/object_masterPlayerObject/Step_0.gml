@@ -4,6 +4,7 @@ switch(state)
 {
 	case 0:
 		// State 0 - First Frame Init - either control this character or don't
+		doUpdateTileset = true;
 		if(doControl)
 		{
 			state = 10;
@@ -25,15 +26,68 @@ switch(state)
 		// State 20 - Run Player
 		script_playerMovementLogic();
 		if(facingDirection == 0){
-			sprite_index = sprite_walk_behind;
+			switch(movement_movementType){
+				case 0:
+					sprite_index = sprite_idle_behind;
+					break;
+				case 1:
+					sprite_index = sprite_walk_behind;
+					break;
+				case 2:
+					sprite_index = sprite_run_behind;
+					break;
+				default:
+					show_debug_message("Unaccounted for movement_movementType: " + string(movement_movementType) + " at player ID: " + string(id));
+					break;
+			}
+
 		} else if (facingDirection == 1){
-			sprite_index = sprite_walk_right;
+			switch(movement_movementType){
+				case 0:
+					sprite_index = sprite_idle_right;
+					break;
+				case 1:
+					sprite_index = sprite_walk_right;
+					break;
+				case 2:
+					sprite_index = sprite_run_right;
+					break;
+				default:
+					show_debug_message("Unaccounted for movement_movementType: " + string(movement_movementType) + " at player ID: " + string(id));
+					break;
+			}
 		} else if (facingDirection == 2){
-			sprite_index = sprite_walk_forward;
+			switch(movement_movementType){
+				case 0:
+					sprite_index = sprite_idle_forward;
+					break;
+				case 1:
+					sprite_index = sprite_walk_forward;
+					break;
+				case 2:
+					sprite_index = sprite_run_forward;
+					break;
+				default:
+					show_debug_message("Unaccounted for movement_movementType: " + string(movement_movementType) + " at player ID: " + string(id));
+					break;
+			}
 		} else if (facingDirection == 3){
-			sprite_index = sprite_walk_left;
+			switch(movement_movementType){
+				case 0:
+					sprite_index = sprite_idle_left;
+					break;
+				case 1:
+					sprite_index = sprite_walk_left;
+					break;
+				case 2:
+					sprite_index = sprite_run_left;
+					break;
+				default:
+					show_debug_message("Unaccounted for movement_movementType: " + string(movement_movementType) + " at player ID: " + string(id));
+					break;
+			}
 		}
-		show_debug_message("playerDirection: " + string(facingDirection));
+		//show_debug_message("playerDirection: " + string(facingDirection));
 		script_playerInteraction();
 		script_playerMenu();
 		script_playerChangeCharacter();
@@ -103,8 +157,14 @@ switch(state)
 
 if(doUpdateTileset)
 {
+	show_debug_message("Updating tileset for player character ID: " + string(id));
 	doUpdateTileset = false;
 	// Reset Tilemap
 	collisionLayer = layer_get_id("collision_map");
 	collisionTilemap = layer_tilemap_get_id(collisionLayer);
+}
+if(doReset){
+	show_debug_message("Resetting player character ID: " + string(id));
+	doReset = false;
+	state = 0;
 }
